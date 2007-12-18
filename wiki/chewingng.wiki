@@ -9,11 +9,12 @@ chewing-NG = chewing Next Generation or chewing N-Gram
     * 注音和拼音對應
     * 用tsi.src來幫助產生有調的lexicon
   * bi-gram lexicon
-  * follow OpenVanilla API
+  * 調整 [http://src.opensolaris.org/source/xref/nv-g11n/inputmethod/sunpinyin/ SunPinYin] 內建的 tool 與 IME
 
 == 中程 ==
   * 抽詞及斷詞工具(semi-supervised or unsupervised)
   * pure C implementation
-  * BSD licensed
+  * follow OpenVanilla API
+  * BSD relicensing
 
 == 長程 ==
