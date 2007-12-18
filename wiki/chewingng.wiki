@@ -1,0 +1,19 @@
+= 簡介 =
+
+chewing-NG = chewing Next Generation or chewing N-Gram
+
+= 目標 =
+
+== 短程 ==
+  * 從[http://src.opensolaris.org/source/xref/nv-g11n/inputmethod/sunpinyin/ SunPinYin]中擷取出有用的部份
+    * 注音和拼音對應
+    * 用tsi.src來幫助產生有調的lexicon
+  * bi-gram lexicon
+  * follow OpenVanilla API
+
+== 中程 ==
+  * 抽詞及斷詞工具(semi-supervised or unsupervised)
+  * pure C implementation
+  * BSD licensed
+
+== 長程 ==
