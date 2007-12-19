@@ -5,7 +5,7 @@ chewing-NG = chewing Next Generation or chewing N-Gram
 = 目標 =
 
 == 短程 ==
-  * 從[http://src.opensolaris.org/source/xref/nv-g11n/inputmethod/sunpinyin/ SunPinYin]中擷取出有用的部份
+  * 從[http://www.opensolaris.org/os/project/input-method/ OpenSolaris輸入法][http://src.opensolaris.org/source/xref/nv-g11n/inputmethod/sunpinyin/ SunPinYin]中擷取出有用的部份
     * 注音和拼音對應
     * 用tsi.src來幫助產生有調的lexicon
   * bi-gram lexicon
