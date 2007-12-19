@@ -1,13 +1,5 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Lexicon =
+  * lm_sc.t3g.i386 is the trigram lexicon
+  * dump
+    * tslminfo -v -l dict.utf8 lm_sc.t3g.i386
+  * [http://www.speech.sri.com/projects/srilm/manpages/ngram-format.html Arpa format]
