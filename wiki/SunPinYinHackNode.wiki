@@ -5,3 +5,16 @@
   * [http://www.speech.sri.com/projects/srilm/manpages/ngram-format.html Arpa format]
 
 = lexicon =
+
+= IME =
+  * CIMIData
+    * CPinYinTrie 詞典
+    * CThreadlm n-gram
+
+  * CIMIContext
+    * setCoreData( CIMIData )
+    * 斷詞演算法
+
+  * CIMIView
+    * attachIC( CIMIContext )
+    * onKeyEvent()
