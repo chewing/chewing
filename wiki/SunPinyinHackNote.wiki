@@ -1,0 +1,21 @@
+= n-gram =
+  * lm_sc.t3g.i386 is the trigram lexicon
+  * dump
+    * tslminfo -v -l dict.utf8 lm_sc.t3g.i386
+  * [http://www.speech.sri.com/projects/srilm/manpages/ngram-format.html Arpa format]
+
+= lexicon =
+  * test
+
+= IME =
+  * CIMIData
+    * CPinYinTrie 詞典
+    * CThreadlm n-gram
+
+  * CIMIContext
+    * setCoreData( CIMIData )
+    * 斷詞演算法
+
+  * CIMIView
+    * attachIC( CIMIContext )
+    * onKeyEvent()
