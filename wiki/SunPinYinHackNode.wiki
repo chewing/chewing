@@ -5,6 +5,7 @@
   * [http://www.speech.sri.com/projects/srilm/manpages/ngram-format.html Arpa format]
 
 = lexicon =
+  * test
 
 = IME =
   * CIMIData
