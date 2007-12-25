@@ -27,3 +27,4 @@ chewing-NG = chewing Next Generation or chewing N-Gram
     * 修改imi_view使其可接受123...等聲調的輸入
   * 2
     * lexicon及n-gram繁體化
+    * 視情況，也許需要寫一個符合注音使用者習慣的新view
