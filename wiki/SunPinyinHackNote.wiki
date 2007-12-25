@@ -31,3 +31,5 @@
 = Lattice Search =
   * Bean search
     * bean = 32
+
+= History Cache =
