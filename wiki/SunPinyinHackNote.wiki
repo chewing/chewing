@@ -19,3 +19,15 @@
   * CIMIView
     * attachIC( CIMIContext )
     * onKeyEvent()
+
+= Data Structure =
+  * CBone
+    * m_BoneType: 拼音 / 標點
+    * m_BoundaryType: 程式斷詞的邊界 / 使用者輸入的邊界
+    * m_pInnerData: 前一個bone的一些訊息
+
+  * CSkeleton
+
+= Lattice Search =
+  * Bean search
+    * bean = 32
