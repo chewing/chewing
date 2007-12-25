@@ -22,5 +22,8 @@ chewing-NG = chewing Next Generation or chewing N-Gram
 = Todo =
 
 == 短程 ==
-  * 利用tsi.src將dict.utf8標出聲調，並產生出pydict_sc.bin
-  * 修改imi_view使其可接受123...等聲調的輸入
+  * 1
+    * 利用tsi.src將dict.utf8標出聲調，並產生出pydict_sc.bin
+    * 修改imi_view使其可接受123...等聲調的輸入
+  * 2
+    * lexicon及n-gram繁體化
