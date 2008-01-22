@@ -16,4 +16,4 @@
     * 目前可得的只有簡體的搜狗語料 http://www.sogou.com/labs/dl/t.html
 
   ==== 方法3 ====
-    * 自行用libtabe，並自行收集未斷詞的語料
+    * 不使用dict.utf8，自行用libtabe，並自行收集未斷詞的語料
