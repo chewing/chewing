@@ -5,7 +5,7 @@
   * [http://www.speech.sri.com/projects/srilm/manpages/ngram-format.html Arpa format]
 
 = lexicon =
-  * test
+  * [http://blogs.sun.com/yongsun/entry/sunpinyin%E4%BB%A3%E7%A0%81%E5%AF%BC%E8%AF%BB_%E4%B8%83 SunPinyin代码导读（七）] 我们这里还要说明一下，在训练语言模型时对多音字词的处理。在处理语料库时，理想的情况下，应该将不同的读音视为不同的词ID。但是要准确地进行拼音标注，本身就十分困难，特别第一遍用FMM分词训练语言模型时。我们使用了下面的折衷方法：在词典文件dict.utf8中，我们对读音的常见程度进行了标记。例如“长”，它的两个读音“zhang”和“chang”都比较常见，分别被标为1；而“她”（ta），另一个读音“chi”则十分罕见，因此将其标为- 1。在训练时，我们将所有遇到的“她”，都认为是“ta”，然后为“chi”的读音分配一定的概率，并为其分配一个新的词ID。
 
 = IME =
   * CIMIData
