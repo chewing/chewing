@@ -1,0 +1,30 @@
+# 簡介 #
+
+chewing-NG = chewing Next Generation or chewing N-Gram
+
+# 目標 #
+
+## 短程 ##
+  * 從[OpenSolaris輸入法](http://www.opensolaris.org/os/project/input-method/)[SunPinYin](http://src.opensolaris.org/source/xref/nv-g11n/inputmethod/sunpinyin/)中擷取出有用的部份
+    * 注音和拼音對應
+    * 用tsi.src來幫助產生有調的lexicon
+  * bi-gram lexicon
+  * 調整 [SunPinYin](http://src.opensolaris.org/source/xref/nv-g11n/inputmethod/sunpinyin/) 內建的 tool 與 IME
+
+## 中程 ##
+  * 抽詞及斷詞工具(semi-supervised or unsupervised)
+  * pure C implementation
+  * follow OpenVanilla API
+  * BSD relicensing
+
+## 長程 ##
+
+# Todo #
+
+## 短程 ##
+  * 1
+    * 利用tsi.src將dict.utf8標出聲調，並產生出pydict\_sc.bin
+    * 修改imi\_view使其可接受123...等聲調的輸入
+  * 2
+    * lexicon及n-gram繁體化
+    * 視情況，也許需要寫一個符合注音使用者習慣的新view
